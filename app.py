@@ -13,8 +13,6 @@ High_Size = dbconf.get("SETTING","HIGH_SIZE")
 Width_Size = int(Width_Size)
 High_Size = int(High_Size)
 
-#API_KEY = "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"
-
 # The text we want to generate an image for
 text = dbconf.get("PROMPT","TEXT_PROMPT")
 
